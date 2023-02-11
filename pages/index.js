@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Navigation from '@/components/Navigation'
+import myPic from '../public/images/headShot.jpg'
+import Image from 'next/image'
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -12,6 +15,13 @@ export default function Home() {
       </Head>
       <Navigation/>
       <main className='p-4'>
+        <Image
+              src="/images/headShot.jpg"
+              height={200}
+              width={244}
+              className="rounded-lg pb-4"
+              alt="profile picture"
+            />
         <h1 className='text-xl font-bold'>Grant Licata</h1>
         <h2 className='pt-2'>Software Engineer, Project Manager, Mountain Adventurer.</h2>
         <p className='pt-2'>I'm Grant, a software developer and project manager based in Seattle. A recent graduate of The Coding Dojo's full stack development bootcamp. I hold a passion for learning and working with teams to build great things.</p>
