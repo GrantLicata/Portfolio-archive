@@ -15,16 +15,18 @@ export default function Home() {
       </Head>
       <Navigation/>
       <main className='p-4'>
-        <Image
-              src="/images/headShot.jpg"
-              height={200}
-              width={244}
-              className="rounded-lg pb-4"
-              alt="profile picture"
-            />
-        <h1 className='text-xl font-bold'>Grant Licata</h1>
-        <h2 className='pt-2'>Software Engineer, Project Manager, Mountain Adventurer.</h2>
-        <p className='pt-2'>I'm Grant, a software developer and project manager based in Seattle. A recent graduate of The Coding Dojo's full stack development bootcamp. I hold a passion for learning and working with teams to build great things.</p>
+        <div className='flex flex-col items-center'>
+          <Image
+                src="/images/headShot.jpg"
+                height={200}
+                width={244}
+                className="rounded-lg pb-4"
+                alt="profile picture"
+              />
+          <h1 className='text-xl font-bold'>Grant Licata</h1>
+          <h2 className='pt-2 text-center font-medium'>Software Engineer, Project Manager, Mountain Adventurer.</h2>
+          <p className='mt-4 text-center'>I'm Grant, a software developer and project manager based in Seattle. A recent graduate of The Coding Dojo's full stack development bootcamp. I hold a passion for learning and working with teams to build great things.</p>
+        </div>
       </main>
     </>
   )
