@@ -13,10 +13,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <h1>Grant Licata</h1>
-        <h2>Software Engineer, Project Manager, Mountain Adventurer.</h2>
-        <p>I'm Grant, a software developer and project manager based in Seattle. A recent graduate of The Coding Dojo's full stack development bootcamp. I hold a passion for learning and working with teams to build great things.</p>
+      <main className='p-4'>
+        <h1 className='text-xl font-bold'>Grant Licata</h1>
+        <h2 className='pt-2'>Software Engineer, Project Manager, Mountain Adventurer.</h2>
+        <p className='pt-2'>I'm Grant, a software developer and project manager based in Seattle. A recent graduate of The Coding Dojo's full stack development bootcamp. I hold a passion for learning and working with teams to build great things.</p>
       </main>
     </>
   )
