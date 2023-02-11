@@ -15,8 +15,11 @@ export default function Home() {
       </Head>
       <main>
         <h1>Grant Licata</h1>
-        <p>Hello, welcome to my portfolio.</p>
+        <h2>Software Engineer, Project Manager, Mountain Adventurer.</h2>
+        <p>I'm Grant, a software developer and project manager based in Seattle. A recent graduate of The Coding Dojo's full stack development bootcamp. I hold a passion for learning and working with teams to build great things.</p>
       </main>
     </>
   )
 }
+
+// I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.
