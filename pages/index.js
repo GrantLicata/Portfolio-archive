@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Navigation from '@/components/Navigation'
 
 export default function Home() {
   return (
@@ -12,6 +10,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Navigation/>
       <main className='p-4'>
         <h1 className='text-xl font-bold'>Grant Licata</h1>
         <h2 className='pt-2'>Software Engineer, Project Manager, Mountain Adventurer.</h2>
