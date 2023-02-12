@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Navigation = () => {
 
   return (
@@ -10,10 +12,10 @@ const Navigation = () => {
             <div className="w-full md:block md:w-auto" id="navbar-default">
                 <ul className="flex justify-center flex-row flex-wrap p-2 mt-2 bg-slate-700 rounded-lg md:space-x-8 md:text-md md:px-4 font-medium">
                     <li>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</a>
+                    <Link href="/" className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">About</Link>
                     </li>
                     <li>
-                    <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-200 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Experience</a>
+                    <Link href="/experience" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-200 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Experience</Link>
                     </li>
                     <li>
                     <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-200 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
