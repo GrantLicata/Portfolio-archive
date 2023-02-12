@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Navigation from '@/components/Navigation'
-import myPic from '../public/images/headShot.jpg'
 import Image from 'next/image'
 
 export default function Home() {
